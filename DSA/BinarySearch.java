@@ -6,9 +6,10 @@ public class BinarySearch {
         int start = 0; // start index of array is 0
         int end = arr.length - 1; //end index of array is length of array - 1
 
-        int mid = start + (end - start) / 2; //mid index of array is start index + (end index - start index) / 2
 
         while (start <= end) { // run loop until start is less than or equal to end;
+            int mid = start + (end - start) / 2; //mid index of array is start index + (end index - start index) / 2
+
             if (target > arr[mid]) { // if target greater than mid start will be mid + 1
                 start = mid + 1;
             } else if (target < mid) { // if target is less than mid end is mid - 1
