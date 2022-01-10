@@ -1,4 +1,3 @@
-package DSA;
 
 //Linear Search Algorithm
 
@@ -17,6 +16,8 @@ public class LinearSearch {
         System.out.println("Enter a key element to search in array: ");
         key = sc.nextInt();
         linearSearch(arr, s, key);
+        sc.close();
+
     }
 
     static void accept(int arr[], int size) {
@@ -24,6 +25,8 @@ public class LinearSearch {
         for (int i = 0; i < size; i++) {
             arr[i] = in.nextInt();
         }
+        in.close();
+
     }
 
     static void display(int arr[], int size){

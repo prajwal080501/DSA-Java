@@ -1,4 +1,3 @@
-package DSA;
 
 import java.util.*;
 
@@ -47,5 +46,7 @@ public class SearchIn2DArray {
         } else {
             System.out.println("Element found");
         }
+
+        sc.close();
     }
 }

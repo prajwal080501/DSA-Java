@@ -1,4 +1,4 @@
-package DSA;
+
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class EvenDigits {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     public static void display(int[] arr) {
@@ -37,6 +38,8 @@ public class EvenDigits {
         accept(arr);
         display(arr);
         evenDigits(arr);
+
+        sc.close();
 
     }
     

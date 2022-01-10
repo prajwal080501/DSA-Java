@@ -1,4 +1,3 @@
-package DSA;
 
 import java.util.Scanner;
 
@@ -23,6 +22,7 @@ public class EvenDigitsIn2DArray {
                 arr[r][c] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     public static void display(int arr[][]) {
@@ -45,6 +45,8 @@ public class EvenDigitsIn2DArray {
         accept(arr);
         display(arr);
         EvenDigitIn2DArray(arr);
+
+        sc.close();
 
         
     }

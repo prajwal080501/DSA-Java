@@ -36,5 +36,7 @@ public class MaxWealth {
         }
 
         maxWealth(accounts);
+        sc.close();
+
     }
 }

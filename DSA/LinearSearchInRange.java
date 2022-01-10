@@ -1,4 +1,4 @@
-package DSA;
+
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class LinearSearchInRange {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     public static void display(int[] arr, int size) {
@@ -42,6 +43,6 @@ public class LinearSearchInRange {
         LinearSearchRange(arr, 0, 3, key);
 
         
-        
+        sc.close();
     }
 }

@@ -1,4 +1,3 @@
-package DSA;
 
 
 import java.util.Scanner;
@@ -54,6 +53,8 @@ public class MaxMinIn2DArray {
         }
         maxIn2DArray(arr);
         minIn2DArray(arr);
+
+        sc.close();
         }
         
     }
