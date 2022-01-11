@@ -4,6 +4,10 @@ public class CeilingFloorNumber {
         int end = arr.length - 1;
         boolean isAsc = arr[start] < arr[end];
 
+        if (target > end) {
+            return -1;
+        }
+
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
@@ -34,7 +38,9 @@ public class CeilingFloorNumber {
         int start = 0;
         int end = arr.length - 1;
         boolean isAsc = arr[start] < arr[end];
-
+        if (target > end) {
+            return -1;
+        }
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
