@@ -18,8 +18,8 @@ public class BinarySearch {
     }
     
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 9 };
-        int target = 7;
+        int[] arr = { 1, 2, 3, 4, 5, 5,3 ,1 };
+        int target = 3;
         int result = BS(arr, target);
         System.out.println("Index position of element is : " + result);
     }
